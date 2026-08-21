@@ -2,6 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://yellow-worm-231407.hostingersite.com/"
+    },
+    {
       "source": "/:path*",
       "destination": "https://yellow-worm-231407.hostingersite.com/:path*"
     }
